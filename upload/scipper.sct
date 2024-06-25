@@ -1,0 +1,6 @@
+<job id="sctTest">
+    <script language="VBScript">
+        Set WshShell = CreateObject("WScript.Shell")
+        WshShell.Run "cmd.exe", 1, false
+    </script>
+</job>
